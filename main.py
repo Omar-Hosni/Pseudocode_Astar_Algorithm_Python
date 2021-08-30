@@ -23,4 +23,6 @@ make an openlist containing only the starting node
     g(n) = cost so far to reach node nnn
 
     h(n) = estimated cost from nnn to goal. This is the heuristic part of the cost function, so it is like a guess.
+    
+    The time complexity of A∗A^{*}A∗ depends on the heuristic. In the worst case, the number of nodes expanded is exponential in the length of the solution (the shortest path), but it is polynomial when the search space is a tree.
 '''
