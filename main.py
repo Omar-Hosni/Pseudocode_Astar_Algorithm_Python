@@ -16,3 +16,11 @@ make an openlist containing only the starting node
 
                else if this neighbor is not in both lists:
                    add it to the open list and set its g
+
+'''
+    f(n) = total estimated cost of path through node nnn
+
+    g(n) = cost so far to reach node nnn
+
+    h(n) = estimated cost from nnn to goal. This is the heuristic part of the cost function, so it is like a guess.
+'''
